@@ -1,8 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -45,7 +40,7 @@ public class Main {
         myObj temp1 = new myObj(1, "John");
         myObj temp2 = new myObj(1, "John");
 
-        Map<myObj, String> map = new HashMap<>();
+        CustomMap<myObj, String> map = new CustomMap<>();
         map.put(temp1,"John one");
         map.put(temp2,"John two");
         // it should be 2 because temp1 and temp2 are two different object.

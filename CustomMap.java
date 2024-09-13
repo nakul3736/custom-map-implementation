@@ -1,10 +1,10 @@
 public class CustomMap<K, V> {
 
     // Define the maximum size of the List (can be adjusted based on needs)
-    private final static int MAX_SIZE = 1000;
+    private final int MAX_SIZE = 1000;
 
     // Keep track of the current number of elements in the map
-    private static int SIZE = 0;
+    private int SIZE = 0;
 
     // Inner class representing a node in the linked list used for storing key-value pairs
     class CustomNode<K, V> {
